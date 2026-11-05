@@ -1,0 +1,20 @@
+# Blender scene files and renders stay out of git
+*.blend
+*.blend1
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.png
+*.jpg
+*.webp
+renders/
+output/
+audio/
+edit/video/public/
+
+# Dependencies and local settings
+node_modules/
+.env
+.env.*
+.claude/settings.local.json

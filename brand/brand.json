@@ -1,0 +1,48 @@
+{
+  "_comment": "Brand values for the Blender explainer reels. Values marked (from Plane.tsx) match the plane-toilet video. Replace them with your company's values. See docs/BRAND_GUIDE.md.",
+  "name": "Your Brand Name",
+  "watermark": "@yourbrand",
+  "watermark_position": "below the caption area (top 1592 px in the 1080x1920 frame, from Plane.tsx)",
+  "logo": {
+    "file": "brand/assets/logo.png",
+    "placement": "top-right",
+    "note": "Use a transparent PNG. Keep it off the caption area."
+  },
+  "font": {
+    "caption": "Plus Jakarta Sans (from lib/theme.ts, UF.body)",
+    "watermark": "JetBrains Mono (from lib/theme.ts, UF.mono)",
+    "heading": "Big Shoulders (from lib/theme.ts, UF.head, optional)",
+    "source": "Google Fonts",
+    "captionWeight": 800
+  },
+  "colors": {
+    "captionText": "#FFFFFF",
+    "captionBox": "rgba(10,16,32,0.72)",
+    "watermarkText": "rgba(255,255,255,0.85)",
+    "background": "#0A1020",
+    "accent": "#F5C542"
+  },
+  "captions": {
+    "size": 58,
+    "lineHeight": 1.18,
+    "box": true,
+    "borderRadius": 18,
+    "textShadow": "0 2px 4px rgba(0,0,0,0.5)",
+    "language": "id",
+    "style": "clean white captions in a dark box"
+  },
+  "audio": {
+    "loudnessTarget": "-14 LUFS",
+    "voiceover": "off by default. Only the owner picks a voice.",
+    "defaultVoice": "id-ID-ArdiNeural (Edge TTS), only if the owner picks it"
+  },
+  "cta": {
+    "defaultQuestion": "Menurut lu gimana?",
+    "commentKeyword": "MAU",
+    "commentKeywordEnabled": false
+  },
+  "endTitle": {
+    "title": "Your Brand Name",
+    "subtitle": "Tagline goes here"
+  }
+}
